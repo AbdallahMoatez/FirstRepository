@@ -83,10 +83,6 @@ CREATE TABLE IF NOT EXISTS `user` (
 -- Déchargement des données de la table `user`
 --
 
-INSERT INTO `user` (`id`, `email`, `roles`, `password`) VALUES
-(1, 'nasserradhwan@gmail.com', '[]', '$2y$13$ueCTQlBt5SB59klc1jxpheg/Vc7NeWNCDEO5DDPukssKRmkip/mmy'),
-(2, 'azouztarek47@gmail.com', '[]', '$2y$13$i8fk79mJspVK7R6CdSjfn.QbXNuwZxu/xqRAIx9qbXPUJZ1ghmQDO');
-COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
